@@ -1,0 +1,41 @@
+.inicio-content {
+	margin: 0px auto;
+	width: 60%;
+	margin-bottom: 8em;
+}
+
+.inicio-content h2 {
+	font-style: 5em;
+	color: #888;
+}
+
+.inicio-content p {
+	display: block;
+	color: #999;
+	padding: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-align: justify;
+	padding-bottom: 2em;
+}
+
+.inicio-content p:last-child {
+	padding-bottom: 0em;
+}
+
+.inicio-content ul {
+	list-style: none;
+	padding-left: 3em;
+	padding-right: 2em;
+}
+
+.inicio-content ul li {
+	color: #999;
+	padding-bottom: 0.5em;
+}
+
+@media only screen and (max-device-width: 600px) and (min-device-width: 0px) {
+	.inicio-content {
+		width: 90%;
+	}
+}

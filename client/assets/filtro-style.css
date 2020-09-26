@@ -1,0 +1,70 @@
+#containt .filtros {
+	transition: all 500ms;
+	width: 20%;
+	box-shadow: 0px 0px 1px #aaa;
+	padding: 3em;
+	background-color: #efefef40;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.filtros-content h3 {
+	color: #777;
+	font-size: 1.5em;
+	padding-bottom: 1em;
+}
+
+.filtros-content ul {
+	list-style: none;
+	margin-left: 2em;
+}
+
+.filtros-content ul li a {
+	display: block;
+	text-decoration: none;
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+	transition: all 400ms;
+	color: #999;
+}
+
+.filtros-content ul li a:hover {
+	color: #555;
+	font-weight: bold;
+}
+
+.filtros-content .busqueda {
+	margin-left: 1.5em;
+	outline: none !important;
+	background-color: rgba(255, 255, 255, 0) !important;
+	border: 0 !important;
+	border-bottom: 2px solid rgb(182, 182, 182) !important;
+	color: #555 !important;
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 600px) {
+	#containt .filtros {
+		position: fixed;
+		margin-top: 0px;
+		top: 0;
+		left: -600px;
+		background-color: rgba(36, 35, 35, 0.8);
+		z-index: 10000;
+		height: 100vh;
+		width: 80%;
+	}
+
+	.filtros-content h3 {
+		color: #e4e4e4;
+	}
+
+	.filtros-content .busqueda {
+		color: #fff;
+	}
+	.filtros-content ul li a {
+		color: #eee;
+		padding-top: 1.2em;
+		padding-bottom: 1.2em;
+	}
+}

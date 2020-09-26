@@ -1,0 +1,43 @@
+.ul-jobs {
+	list-style: none;
+	padding-left: 0px !important;
+	width: 17%;
+	display: block;
+}
+
+.ul-jobs > li {
+	font-size: 1.2em;
+	color: #666;
+	transition: all 500ms;
+}
+
+.ul-jobs > li:hover {
+	color: black;
+	cursor: pointer;
+}
+
+.ul-jobs > li > ul {
+	display: none;
+	list-style: none;
+	position: absolute;
+	z-index: 100;
+	background: #fff;
+	box-shadow: 1px 2px 3px #3c8dbc;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	transition: all 500ms;
+	height: 300px;
+	overflow-y: auto;
+}
+.ul-jobs > li > ul > li > a {
+	display: block;
+	font-size: 0.8em;
+	text-decoration: none;
+	padding: 0.8em;
+}
+
+.ul-jobs > li:hover > ul {
+	display: block;
+}

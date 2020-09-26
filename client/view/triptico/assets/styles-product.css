@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+
+.main > h3 {
+	color: rgb(231, 231, 231);
+	padding: 1em;
+	padding-bottom: 2em;
+	background: #ff3333;
+	height: 90px;
+	text-align: center;
+	font-size: 2em;
+}
+
+.productos {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+.productos * {
+	font-family: 'Montserrat';
+	font-weight: normal;
+}
+
+.productos .producto {
+	display: flex;
+	width: 44%;
+	margin: 1em;
+	padding-right: 1em;
+	border-radius: 10px;
+	box-shadow: 1px 2px 2px rgb(204, 204, 204);
+	overflow: hidden;
+}
+
+.producto .status-producto {
+	width: 3px;
+	background-color: red;
+	height: 100%;
+	padding-left: 0px;
+
+	align-self: center;
+}
+
+.producto .img-producto {
+	width: 140px;
+	height: 130px;
+	border-radius: 999px;
+	align-self: center;
+	overflow: hidden;
+	margin-left: 1.5em;
+}
+
+.producto .img-producto img {
+	width: 100%;
+}
+
+.producto .stats-producto {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+}
+
+.stats-producto .title-producto {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.producto .stats-producto h3,
+.producto .stats-producto h4 {
+	text-align: right;
+}
+
+.producto .stats-producto h3 {
+	color: #555;
+	font-size: 1.3em;
+	margin-bottom: 1em;
+	padding-top: 1em;
+}
+
+.producto .stats-producto h4 {
+	color: #aaa;
+	font-size: 0.8em;
+}
+
+.productos .stats-producto h4 small {
+	font-size: 1.5em;
+}
+
+.producto .stats-producto a {
+	font-size: 1em;
+	margin-top: 2em;
+	display: block;
+	text-align: right;
+}

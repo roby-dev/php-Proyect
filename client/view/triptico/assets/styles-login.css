@@ -1,0 +1,87 @@
+#login {
+	width: 400px;
+	margin: 0px auto;
+	justify-self: start;
+	margin-bottom: 17em;
+}
+
+#login h4 {
+	text-align: center;
+	font-size: 3em;
+	color: #999;
+}
+
+/*user-data*/
+
+#user-data {
+	background-color: transparent;
+	position: fixed;
+	z-index: 1000;
+	right: 0;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+}
+
+#user-data > ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 0px;
+}
+
+#user-data > ul > li > a {
+	color: #fff;
+	display: block;
+	height: 100%;
+	opacity: 0.8;
+	transition: all 500ms;
+	text-decoration: none;
+	padding: 2em;
+}
+
+#user-data > ul > li > a:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+#user-data > a {
+	color: #eee;
+
+	text-decoration: none;
+	font-weight: normal;
+	transition: all 400ms;
+}
+
+#user-data > ul > li:last-child ul {
+	text-decoration: none;
+	list-style: none;
+	position: absolute;
+	right: 0;
+	top: 80px;
+	display: none;
+	opacity: 0.8;
+	background-color: #eee;
+	width: 250px;
+	transition: all 500ms;
+	box-shadow: 1px 2px 3px gray;
+}
+
+#user-data > ul > li:last-child ul:hover {
+	opacity: 1;
+}
+#user-data > a:hover {
+	opacity: 1;
+}
+
+#user-data > ul > li:last-child:hover > ul {
+	display: block;
+}
+
+#datos-menu li a {
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	padding-right: 2em;
+	text-align: right;
+}

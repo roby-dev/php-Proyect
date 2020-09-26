@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+
+.noticias *,
+#noticias * {
+	font-family: 'Montserrat';
+}
+
+.noticias > h3 {
+	color: #a5a5a5;
+	text-align: right;
+	padding: 1em;
+	height: 88px;
+	line-height: 60px;
+	font-size: 1.1em;
+}
+
+#noticias {
+	height: 100%;
+	padding-left: 1em;
+	padding-right: 1em;
+	transition: all 500ms;
+}
+
+.noticia-content .noticia {
+	padding-top: 1em;
+	transition: all 500ms;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-bottom: 1em;
+}
+
+.noticia-titulo:hover {
+	cursor: pointer;
+}
+
+.noticias h4 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 1.75em;
+	font-weight: normal;
+	color: #666;
+	text-align: center;
+}
+
+.noticias .publicidad {
+	height: 40%;
+	padding: 1em;
+	border-radius: 50px;
+	overflow: hidden;
+	transition: all 500ms;
+}
+
+.publicidad:hover {
+	cursor: pointer;
+}
+
+.publicidad img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.noticias .noticia-content {
+	height: 30%;
+	overflow-y: auto;
+}
+
+.noticia-titulo h5 a {
+	font-size: 0.8em;
+	font-weight: normal;
+	color: rgb(240, 87, 87);
+	transition: all 400ms;
+	text-decoration: none;
+}
+
+.noticia-titulo h5 a:hover {
+	color: rgb(155, 0, 0);
+}
+
+.noticia-sumilla p small {
+	font-size: 0.8em;
+	color: #999;
+	text-align: justify;
+}
+
+.carousel-indicators li {
+	background-color: #f00 !important;
+}
